@@ -1,0 +1,78 @@
+body{
+	background-color: #eee;
+}
+.main{
+	background-color: #fff;
+	width:95%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+}
+.item {
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw/2/16*9);
+	width: calc(90vw - 10px);
+	background-color: #CECECE;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size:cover;
+}
+.img-1{
+	background-image: url('https://source.unsplash.com/1280x720/?cactus');
+}
+.img-2{
+	background-image: url('https://source.unsplash.com/1280x720/?chamomile');
+}
+.img-3{
+	background-image: url('https://source.unsplash.com/1280x720/?oak');
+}
+.img-4{
+	background-image: url('https://source.unsplash.com/1280x720/?spruce');
+}
+.img-5{
+	background-image: url('https://source.unsplash.com/1280x720/?Rose');
+}
+.img-6{
+	background-image: url('https://source.unsplash.com/1280x720/?birch');
+}
+.img-7{
+	background-image: url('https://source.unsplash.com/1280x720/?Sakura');
+}
+.img-8{
+	background-image: url('https://source.unsplash.com/1280x720/?baobab');
+}
+.img-9{
+	background-image: url('https://source.unsplash.com/1280x720/?grass');
+}
+.img-10{
+	background-image: url('https://source.unsplash.com/1280x720/?forest');
+}
+.img-11{
+	background-image: url('https://source.unsplash.com/1280x720/?mountain');
+}
+.img-12{
+	background-image: url('https://source.unsplash.com/1280x720/?cactus');
+}
+.heading{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Lobster',cursive;
+}
+.img-link{
+	display: block;
+	opacity: 0.8;
+	transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	margin:5px; 
+}
+.img-link:hover{
+	opacity: 1;
+	transform: scale(1.2) rotate(5deg);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.5)
+	filter:blur(3px);
+}
